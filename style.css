@@ -179,3 +179,60 @@ footer {
   color: #94a3b8;
   font-size: 0.9rem;
 }
+
+.signal-card {
+  background: #020617;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.signal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.pair {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.signal-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.signal-badge.buy {
+  background: #22c55e;
+}
+
+.signal-badge.sell {
+  background: #ef4444;
+}
+
+.signal-badge.wait {
+  background: #eab308;
+  color: #000;
+}
+
+.signal-card.buy {
+  border-left: 4px solid #22c55e;
+}
+
+.signal-card.sell {
+  border-left: 4px solid #ef4444;
+}
+
+.signal-card.wait {
+  border-left: 4px solid #eab308;
+}
+
+small {
+  color: #9ca3af;
+}
