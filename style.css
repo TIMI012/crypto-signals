@@ -37,3 +37,73 @@ footer {
   background: #020617;
   margin-top: 40px;
 }
+
+/* ===== SIGNALS SECTION ===== */
+.signals {
+  padding: 40px 20px;
+}
+
+.signals h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #22c55e;
+}
+
+/* Signal Card */
+.signal-card {
+  background: #020617;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #475569;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.signal-card h3 {
+  margin: 0 0 10px;
+  color: #e5e7eb;
+}
+
+.signal-card p {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+/* Status badge */
+.signal-card .status {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* Signal States */
+.signal-card.active {
+  border-left-color: #22c55e;
+}
+
+.signal-card.active .status {
+  background: #22c55e;
+   
+  color: #020617;
+}
+
+.signal-card.hit {
+  border-left-color: #38bdf8;
+}
+
+.signal-card.hit .status {
+  background: #38bdf8;
+  color: #020617;
+}
+
+.signal-card.loss {
+  border-left-color: #ef4444;
+}
+
+.signal-card.loss .status {
+  background: #ef4444;
+  color: #020617;
+}
